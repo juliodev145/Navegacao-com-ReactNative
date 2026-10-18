@@ -3,7 +3,7 @@ import  {BottomRoutes}  from "./BottomRoutes";
 import  DrawerRoutes  from "./DrawerRoutes";
 import  {StackRoutes } from "./StackRoutes";   
 
-const TIPO_DE_NAVEGACAO = "bottom"; // drawer, stack, bottom-tabs
+const TIPO_DE_NAVEGACAO = "drawer"; // drawer, stack, bottom
 
 export function Routes() {
     return (

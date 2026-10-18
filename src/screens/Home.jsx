@@ -15,9 +15,10 @@ export default function Home() {
         }}
         >
             <Header>
+                
                 <Title>Home</Title>
                 <ButtonIcon
-                    iconName="add-circle"
+                    icon="add-circle"
                     onPress={() => navigate.navigate("product")}
                 />
             </Header>
